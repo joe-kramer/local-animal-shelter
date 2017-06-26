@@ -17,5 +17,15 @@ public class App {
     bird.mName = "Ally";
     bird.mAge = 2;
 
+    Animal[] animals = {dog, cat, bird};
+
+    System.out.println("All Animals At Shelter:");
+
+    for (Animal animal : animals) {
+      System.out.println( "----------------------" );
+      System.out.println( animal.mSpecies );
+      System.out.println( animal.mName );
+      System.out.println( animal.mAge );
+    }
   }
 }
