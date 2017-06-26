@@ -4,20 +4,9 @@ public class App {
   public static void main(String[] args) {
     Console myConsole = System.console();
 
-    Animal dog = new Animal();
-    dog.mSpecies = "dog";
-    dog.mName = "Scottie";
-    dog.mAge = 5;
-
-    Animal cat = new Animal();
-    cat.mSpecies = "cat";
-    cat.mName = "Franky";
-    cat.mAge = 3;
-
-    Animal bird = new Animal();
-    bird.mSpecies = "bird";
-    bird.mName = "Ally";
-    bird.mAge = 2;
+    Animal dog = new Animal("dog", "Scottie", 5);
+    Animal cat = new Animal("cat", "Franky", 3);
+    Animal bird = new Animal("bird", "Ally", 2);
 
     Animal[] animals = {dog, cat, bird};
 
