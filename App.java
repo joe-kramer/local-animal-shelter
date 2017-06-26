@@ -4,9 +4,9 @@ public class App {
   public static void main(String[] args) {
     Console myConsole = System.console();
 
-    Animal dog = new Animal("dog", "Scottie", 5);
-    Animal cat = new Animal("cat", "Franky", 3);
-    Animal bird = new Animal("bird", "Ally", 2);
+    Animal dog = new Animal("dog", "Scottie", 5, false);
+    Animal cat = new Animal("cat", "Franky", 3, false);
+    Animal bird = new Animal("bird", "Ally", 2, false);
 
     Animal[] animals = {dog, cat, bird};
 
